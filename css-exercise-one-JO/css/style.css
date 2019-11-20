@@ -1,0 +1,42 @@
+
+/* Here lies the unbroken CSS*/
+
+body {
+  font-size: 14px;
+}
+/* This defines the majority of page, does not define articles */
+nav {
+  background-color: yellow;
+  height: 100px;
+  margin-top: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+section {
+  margin: 0 auto;
+  width: 60%;
+}
+/* Main title lies below */
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+/* The original phrase here was "example", this held no other place in either sheet and has been modified to reflect that it has been modified due to this reason */
+.element, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+/* This is the header for articles */
+h3 {
+  font-size: 1.3em;
+}
+
+/* This defines the articles' attributes, including background */
+
+.element {
+  background-color: fff;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
